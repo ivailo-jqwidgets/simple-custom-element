@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿var jqxHoyProto = Object.create(HTMLElement.prototype);
 
 jqxHoyProto.createdCallback = function () {
@@ -11,3 +12,7 @@ var jqxHoy = document.registerElement('jqx-hoy', {
     prototype: jqxHoyProto
 });
 
+=======
+﻿branch 1
+branch 1 level 2
+>>>>>>> refs/remotes/origin/new-branch-level-2
