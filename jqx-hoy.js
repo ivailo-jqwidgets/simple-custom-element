@@ -1,4 +1,5 @@
-﻿var jqxHoyProto = Object.create(HTMLElement.prototype);
+
+var jqxHoyProto = Object.create(HTMLElement.prototype);
 
 jqxHoyProto.createdCallback = function () {
     var imgSrc = this.getAttribute('imgSrc'),
