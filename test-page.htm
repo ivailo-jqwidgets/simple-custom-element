@@ -2,6 +2,13 @@
 <html lang="en">
 <head>
     <script type="text/javascript" src="jqx-hoy.js"></script>
+    <script type="text/javascript">
+        window.onload = function () {
+            var dynamicElement = document.createElement('div');
+            dynamicElement.innerHTML = '<jqx-hoy imgSrc="https://pbs.twimg.com/profile_images/641353910561566720/VSxsyxs7.jpg" imgLabel="Sun2"></jqx-hoy>';
+            document.body.appendChild(dynamicElement);
+        }
+    </script>
 </head>
 <body>
     <jqx-hoy imgSrc="http://spaceplace.nasa.gov/templates/featured/sun/sunburn300.png" imgLabel="Sun"></jqx-hoy>
